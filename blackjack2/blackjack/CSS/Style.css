@@ -1,0 +1,112 @@
+/*GENERAL*/
+body {
+  background-color: rgb(33,48,53);
+}
+
+.tableBackground{
+  display: flex;
+  justify-content: space-around; 
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(20, 105, 20);
+  border-radius: 0 0 30% 30%;
+  height: 850px;
+  border-width: 50px;
+  border-style: solid;
+  border-color: rgb(76, 17, 0);
+  z-index: 1;
+}
+
+
+
+/*CONTAINERS*/
+.container{
+  background-color: rgb(222,184,135);
+  border-style:solid;
+  border-width: 3px;
+  border-radius: 20px;
+}
+
+.infoStyling{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.scoreStyling{
+  display: flex;
+  margin-left: 100px;
+}
+.handStyling{
+  display: flex;
+}
+
+/*CARD*/
+.cardDesign {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  width: 150px;
+  height: 200px;
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cardText {
+  display:inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px
+}
+
+/*BUTTONS*/
+#buttonBox {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.buttonSetUp{
+  font-size: 35px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:white;
+  border-radius: 10px;
+  margin: 0px 10px 0px 10px;
+  color:white;
+  background-color: rgb(190, 12, 48);
+}
+
+.buttonSetUp:hover {
+  background-color: #2980B9;
+}
+
+/*DROPDOWN MENU*/
+.dropdown-content {
+  display:flex;
+  align-items:middle;
+  position: absolute;
+  min-height:50px;
+  background-color: rgb(20, 105, 20);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/*Loser Title*/
+h1{color: rgb(231, 36, 36)}
+/*Winner Title*/
+h2{color: rgb(26, 11, 241)}
+/*Tie Title*/
+h3{color: rgb(255, 13, 162)}
+
+.hide{
+  display: none;
+}

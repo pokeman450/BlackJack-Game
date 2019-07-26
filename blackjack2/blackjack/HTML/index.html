@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    <!--Creates the options box and places the dropdown options in it-->
+    
+    <!--Creates a space for the player's hand and thier score-->
+    <div id ='table' class="tableBackground">
+        <div id = 'dealerContainer' class="container backColor hide">
+            <div id = "dealerInfo" class="infoStyling">
+                <label>Dealer's Hand</label>
+                <div id ='dealerScore' class="scoreStyling" ></div>
+            </div>
+            <div id ='dealersCards' class="handStyling"></div>
+        </div>
+        <div id = 'buttonBox'>
+            <!-- Creates the start up buttons  -->
+            <button id = 'startButton' class='buttonSetUp'>Start Game!</button>
+            <button id = 'options' class= "buttonSetUp">Options</button>
+            <button id = "hitButton" class="hide buttonSetUp">Hit!</button>
+            <button id = "stayButton" class="hide buttonSetUp">Stay!</button>
+        </div>
+        <div id="myDropdown" class="dropdown-content hide"></div>
+        <!--Creates a space for the dealer's hand and thier score-->
+        <div id = 'playerContainer' class="container backColor  hide">
+            <div id = "playerInfo" class="infoStyling">
+                <label>Player's Hand</label>
+                <div id ='playerScore' class="scoreStyling"></div>
+            </div>
+            <div id ='playersCards' class="handStyling" ></div>    
+        </div>
+    </div>
+    <!--Imports Javascript code-->
+    <script src= "../Javascript/Blackjack.js"></script>
+</body>
+</html>
